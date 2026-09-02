@@ -1,0 +1,18 @@
+﻿=== Word SEPX sprmPChgTabs one-click reproduction (x64 / ARM64) ===
+PowerShell process arch: AMD64 | OS CPU: x64
+WINWORD: C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE
+WINWORD version: 16.0.20326.20100 | binary: x64
+Word attached, version 16.0
+--- opening base_clean.doc
+RESULT base_clean.doc OPENED Count=5 TabStops=[36, 72, 144, 432, 460.85]
+--- opening diag_nfib193.doc
+RESULT diag_nfib193.doc OPENED Count=5 TabStops=[36, 72, 144, 432, 460.85]
+--- opening poc_sepx_tamper.doc
+RESULT poc_sepx_tamper.doc OPENED Count=5 TabStops=[36, 72, 144, 432, 460.85]
+--- opening poc_sepx_prcdata.doc
+RESULT poc_sepx_prcdata.doc OPENED Count=5 TabStops=[36, 72, 144, 432, 460.85]
+--- opening poc_sepx_oob.doc
+RESULT poc_sepx_oob.doc REJECTED_BY_WORD (file validation refused the file before parsing)
+RESULT poc_sepx_oob.doc RETRY_FRESH_COPY REJECTED_OR_ERROR (msg=Office has detected a problem with this file. To help protect your computer this file cannot be opened. (C:\...\retry_526ae758_poc_sepx_oob.doc))
+=== crash artifacts written in the last 2 hours (if any) ===
+=== done; transcript: D:\a\office-bin-diff\office-bin-diff\poc\repro_log_20260901_234717.txt ===
